@@ -15,6 +15,7 @@ const person: {
   hobbies: ["Reading", "Coding"],
   role: [4, "Admin"],
   gender: genderType.MALE,
+  number: 5
 };
 console.log(person.age);
 
@@ -28,4 +29,4 @@ let product: {
     title: string;
     description: string;
   };
-} = null;
+};
